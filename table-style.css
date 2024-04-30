@@ -8,4 +8,40 @@ body {
   font-family: "Inter", sans-serif;
   color: #343a40;
   line-height: 1;
+
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 800px;
+  margin-top: 100px;
+  font-size: 18px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 16px 24px;
+}
+
+thead tr {
+  color: #ffffff;
+  background-color: #087f5b;
+}
+
+thead th {
+  width: 25%;
+  color: #ffffff;
+  background-color: #087f5b;
+}
+
+tbody tr:nth-child(odd) {
+  /* color: #; */
+  background-color: #f8f9fa;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e9ecef;
 }
